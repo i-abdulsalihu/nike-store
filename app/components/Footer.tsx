@@ -61,7 +61,7 @@ export default function Footer() {
                   ) =>
                     path ? (
                       <Link
-                        key={index}
+                        key={index + new Date().getFullYear()}
                         href={path}
                         className={cn("text-sm", {
                           "text-gray-400 transition duration-100 hover:text-primary":
