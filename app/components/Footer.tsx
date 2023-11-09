@@ -72,7 +72,10 @@ export default function Footer() {
                         {name}
                       </Link>
                     ) : (
-                      <p className="text-gray-400 transition duration-100 hover:text-white text-sm cursor-pointer">
+                      <p
+                        key={index + new Date().getFullYear()}
+                        className="text-gray-400 transition duration-100 hover:text-white text-sm cursor-pointer"
+                      >
                         {name}
                       </p>
                     )
