@@ -19,11 +19,11 @@ export default function Navbar() {
   const { handleCartClick } = useShoppingCart();
 
   return (
-    <header className="mb-8 border-b">
+    <header className="mb-8 border-b sticky top-0 bg-white z-20">
       <div className="flex items-center justify-between mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl">
         <Link href="/">
-          <h1 className="text-xl md:text-lg font-bold">
-            <span className="text-primary">E</span>Commerce
+          <h1 className="text-xl md:text-lg font-bold text-gray-900">
+            <span className="text-primary">Nike</span>Store
           </h1>
         </Link>
 
