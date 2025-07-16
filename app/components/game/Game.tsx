@@ -11,6 +11,7 @@ import { levels } from '../../data/levels';
 import ImageGrid from './ImageGrid';
 import AnswerBox from './AnswerBox';
 import CharacterPool from './CharacterPool';
+import { Button } from "@/components/ui/button";
 
 export default function Game() {
   const dispatch = useDispatch();
